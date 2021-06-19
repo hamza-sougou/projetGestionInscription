@@ -53,6 +53,7 @@ class Connexion extends Component {
           <button onClick={this.connexion} className="connexionbtn">Connexion</button>
             </form>
         </div>
+        <img src="femme.png" className="woman"></img>
         </div>
       );
 

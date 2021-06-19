@@ -291,13 +291,15 @@ form{
   border: none;
   border-radius: 10px;
   height: 50px;
-  
 }
+
 .connexionbtn:hover{
   background: #00cccc;
   transition: background-color var(--connexionbtn-transition-speed);
   
 }
+
+
 
 /*faq page*/
 .titre{
