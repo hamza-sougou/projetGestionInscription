@@ -28,6 +28,7 @@ class Faq extends Component {
    
         return (
         <div className="page faq">
+                    <img src="logosup.png" className="logo"></img>
             <h1 className="titre">FAQ</h1>
             <button class="accordion">Où pouvons-nous vous trouver?</button>
             <div class="panel">
@@ -39,14 +40,11 @@ class Faq extends Component {
                 <p>Les études supérieures ont pour coutume d'être assez conséquentes d'un point de vue financier, mais heureusement, le groupe SUP a déja prévu cela et propose des formations accessibles à toutes classes financières</p>
             </div>
 
-            <button class="accordion">Section 3</button>
+            <button class="accordion">Vos diplômes, sont-ils reconnus internationalement? </button>
             <div class="panel">
-                <p>Lorem ipsum...</p>
+                <p>Oui nos diplômes sont reconnus par le CAMES, vous pourrez le vérifier par vous-même en suivant <a href="#">ce lien</a>.</p>
             </div>
-            <button class="accordion">Section 3</button>
-            <div class="panel">
-                <p>Lorem ipsum...</p>
-            </div>
+           
         </div>
         );
    }

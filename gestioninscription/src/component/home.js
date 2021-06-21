@@ -26,6 +26,7 @@ class Homepage extends Component {
     return (
       <div className="page home">
         <span className="presentationCont">
+        <img src="logosup.png" className="logo"></img>
             <h1 className="presentation">Nous préparons nos étudiants à un avenir radieux!</h1>
         </span>
         <span>

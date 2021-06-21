@@ -57,7 +57,8 @@ class Dashboardadmin extends Component {
   render(){
       const {etudiant} = this.state
       return (
-        <div className="dashboard-content">        
+        <div className="dashboard-content">  
+                <img src="logosup.png" className="logo"></img>      
           <div>
             <h2>Liste des inscriptions</h2>
           <table>

@@ -66,7 +66,8 @@ class Dashboard extends Component{
         }
       }
       return (
-        <div className="dashboard">        
+        <div className="dashboard"> 
+                <img src="logosup.png" className="logo"></img>       
           <div>
 
             

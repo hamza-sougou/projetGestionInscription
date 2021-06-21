@@ -38,6 +38,7 @@ class Inscription extends Component {
   render(){
       return (
         <div className="page inscription">
+                  <img src="logosup.png" className="logo"></img>
             <div className="edges">
             <form> 
               <h1>Inscrivez vous!</h1>
@@ -71,10 +72,8 @@ class Inscription extends Component {
           <button onClick={this.inscriptionBtn} className="inscriptionbtn">Inscription</button>
           
             </form>
-
-
             </div>
-            <img src="femme.png" className="woman"></img>
+            <img src="woman-pointing.svg" className="woman"></img>
         </div>
       );
   }

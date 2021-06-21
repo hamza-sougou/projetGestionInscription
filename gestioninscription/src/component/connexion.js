@@ -40,6 +40,7 @@ class Connexion extends Component {
   render(){
       return (
         <div className="page connexion">
+                  <img src="logosup.png" className="logo"></img>
         <div className="edge">
         <form>
               <h1>Connectez vous!</h1>
@@ -52,8 +53,9 @@ class Connexion extends Component {
           </select>
           <button onClick={this.connexion} className="connexionbtn">Connexion</button>
             </form>
+  
         </div>
-        <img src="femme.png" className="woman"></img>
+        <img src="cross-legged.svg" className="cross"></img>
         </div>
       );
 
